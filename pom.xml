@@ -14,10 +14,10 @@ set JAVA_HOME=C:\path\to\jdk11
 	<url>http://www.example.com</url>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -120,8 +120,8 @@ set JAVA_HOME=C:\path\to\jdk11
     					<groupId>org.apache.maven.plugins</groupId>
     					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
+						<source>11</source>
+						<target>11</target>
 					</configuration>
 				</plugin>
 			</plugins>
